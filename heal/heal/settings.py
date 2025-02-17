@@ -25,13 +25,13 @@ SECRET_KEY = "django-insecure-5dtx!lru1w3=d7&2k&%oevpn*0d^k39d^fkpaifsd%*d8czl$y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['healtogether.com']
+ALLOWED_HOSTS = ['healtogether.com', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    "heal.apps.HealtogetherConfig"
+    "healtogether.apps.HealtogetherConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
